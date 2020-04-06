@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <text fill="#000000" font-family="serif" font-size="24" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(13.549 0 0 4.23574 -2700.2 -553.868)" x="223.5" xml:space="preserve" y="192.5"/>
+  <text fill="#00007f" font-family="serif" font-size="32" font-weight="bold" id="svg_2" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(4.42363 0 0 4.80769 -459.068 -691.096)" x="144.66025" xml:space="preserve" y="203.124">GT</text>
+  <text fill="#003f7f" font-family="serif" font-size="32" id="svg_4" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(2.42483 0 0 2.27778 -573.026 -314.972)" x="385.72359" xml:space="preserve" y="263.20732">Peru</text>
+  <polygon fill="#111163" id="svg_6"/>
+  <polygon fill="#111163" id="svg_7" points="232.5,235.5 232.5,235.5 232.5,235.5 232.5,235.5 232.5,235.5 232.5,235.5 " stroke="#000000" stroke-width="0"/>
+ </g>
+</svg>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <meta name="author" content="Omar Puicon Campos">
+    <meta name="keywords" content="desarrolador Web, desarrollador">
+    <meta name="description" content="Desarrollo WEB">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <!--svg width="300px" heigh="200px" viewbox="0 0 300 200" style="border:2px solid black;"-->
+    <svg width="250px" heigh="230px" viewbox="0 0 250 230">
+      <image alt="logo_omar" width="250px" height="500px" xlink:href="img/logo_omar.svg"></image>
+    </svg>
+    <h1>CURRICULUM VITAE</h1>
+<ul>
+  <li><h2><em>DATOS PERSONALES</em></h2></li>
+  <ul>
+    <li><strong>Nombre: </strong>Omar.</li>
+    <li><strong>Apellido: </strong>Puicón Campos.</li>
+    <li><strong>Fecha Nacimiento: </strong>12 diciembre 1982.</li>
+    <li><strong>Lugar de Nacimiento: </strong>Lima.</li>
+  </ul>
+  <li><h2>ENLACES DEL MENU</h2></li>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="Educacion.html">Educación</a></li>
+    <li><a href="Experiencia.html">Experiencia</a></li>
+  </ul>
+  <li><h2><em>EDUCACION</em></h2></li>
+  <table border="2"  cellpading="10" cellspacing="2">
+    <thead>
+      <title>Estudios realizados</title>
+    </thead>
+    <tbody>
+      <tr bgcolor="#f0f0f0">
+        <td><strong>Año</strong></td>
+        <td><strong>Institución</strong></td>
+        <td><strong>Lugar</strong></td>
+        <td><strong>¿Culminó?</strong></td>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>URP</td>
+        <td>Lima</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>NEXU</td>
+        <td>Lima</td>
+        <td>Sí</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <li><h2><em>AGREGAR ESTUDIOS</em></h2></li>
+  <form name="Datos estudios" autocomplete="on" class="" action="index.html" method="post">
+    <legend>Datos</legend>
+    <fieldset>
+      <label for="año">Año</label>
+      <select class="" name="año">
+        <option value="">2020</option>
+        <option value="">2019</option>
+        <option value="">2018</option>
+      </select><br>
+      <label for="institucion">Institucion: </label>
+      <input type="text" name="institucion" value="" placeholder="Ej. URP" id="institucion" required><br>
+      <label for="lugar">Lugar: </label>
+      <input type="text" name="lugar" value="" id="lugar" placeholder="Ej, Universidad de lima" required><br><br>
+      <button type="submit" name="enviar">Enviar</button>
+    </fieldset>
+  </form>
+  </body>
+  <footer>
+    <ul>
+      <li><h4><em>INFORMACIÓN DE CONTACTO</em></h4></li>
+      <ul>
+        <li><strong>Correo eléctrónico: </strong><em>omar.puicon@gmail.com</em></li>
+        <li><strong>Teléfono: </strong><em>989264187</em></li>
+        <li><strong>Redes sociales: </strong><em></em></li>
+        <li><strong>Dirección: </strong><strong>Lima</strong></li>
+      </ul>
+      <li><img src="img/redes.png" alt="imagen redes" title="imagen redes" width="" height="" ></li>
+    </ul>
+    </footer>
+</html>
